@@ -1,0 +1,15 @@
+{
+  "name": "adapt-walkgrove-footer",
+  "version": "4.0.0",
+  "framework": ">=5",
+  "homepage": "https://github.com/walkgrovedev/adapt-walkgrove-footer.git",
+  "component" : "footer",
+  "displayName" : "Footer",
+  "description": "A simple footer component",
+  "main": "/js/adapt-walkgrove-footer.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPL-3.0"
+}
