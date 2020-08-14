@@ -18,7 +18,7 @@
     "tag": "v1.0.0",
     "commit": "ee2952fedacf99c49eb56e093bd77647c8b15b99"
   },
-  "_source": "git@github.com:walkgrovedev/adapt-walkgrove-footer.git",
+  "_source": "git://github.com/walkgrovedev/adapt-walkgrove-footer.git",
   "_target": "1.0.0",
   "_originalSource": "adapt-walkgrove-footer",
   "_direct": true
