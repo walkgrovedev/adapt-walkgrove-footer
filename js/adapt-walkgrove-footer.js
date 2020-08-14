@@ -49,10 +49,10 @@ define([
     }
   },
   {
-    template: 'footer'
+    template: 'pageFooter'
   });
 
-  return Adapt.register('footer', {
+  return Adapt.register('pageFooter', {
     model: ComponentModel.extend({}),// create a new class in the inheritance chain so it can be extended per component type if necessary later
     view: PageFooterView
   });

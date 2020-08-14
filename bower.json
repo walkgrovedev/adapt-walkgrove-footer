@@ -3,7 +3,7 @@
   "version": "4.0.0",
   "framework": ">=5",
   "homepage": "https://github.com/walkgrovedev/adapt-walkgrove-footer.git",
-  "component" : "footer",
+  "component" : "pageFooter",
   "displayName" : "Footer",
   "description": "A simple footer component",
   "main": "/js/adapt-walkgrove-footer.js",
