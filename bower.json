@@ -2,7 +2,7 @@
   "name": "adapt-walkgrove-footer",
   "repository": {
       "type": "git",
-      "url": "git@github.com:walkgrovedev/adapt-walkgrove-footer.gitt"
+      "url": "git@github.com:walkgrovedev/adapt-walkgrove-footer.git"
   },
   "version": "1.0.0",
   "framework": ">=5",
