@@ -4,5 +4,9 @@
         "_type": "component",
         "_component": "pageFooter",
         "_classes": "",
-        "_layout": "left"
+        "_layout": "left",
+        "title": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
     }
