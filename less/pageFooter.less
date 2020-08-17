@@ -1,0 +1,61 @@
+.pagefooter {
+  
+  position: fixed;
+  bottom: 0;
+  left:0;
+  width: 100%;
+
+  &__inner {
+    background-color: @primary-colour;
+    padding: 1.25rem 0 2.5rem 0;
+    width: 100%;
+    height:Auto;
+  }
+
+  &__previous {
+    left: 0;
+    text-align: left; 
+
+    &:before { 
+      font-family: "vanilla"; 
+      padding: 0 1rem; 
+      content: "\e960"; 
+      
+      .dir-rtl & { 
+        content: "\e961"; 
+      } 
+
+    } 
+  }
+
+  &__next {
+    right: 0;
+    text-align: right;
+
+    &:after { 
+      font-family: "vanilla"; 
+      padding: 0 1rem; 
+      content: "\e961"; 
+      
+      .dir-rtl & { 
+        content: "\e960"; 
+      } 
+
+    }
+  }
+
+  &__link {
+    position: fixed;
+    width: 50%;
+    color: @white;
+    text-decoration: none!important;
+  }
+
+  &__link-title {
+    @media (max-width: @device-width-small) {
+      display: none;
+    }
+  }
+
+}
+  
