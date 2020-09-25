@@ -1,3 +1,9 @@
-<div class="component__inner pageFooter__inner">
+<div class="component__inner pagefooter__inner">
   {{> component this}}
+
+  {{#each _buttons}}
+  <a href="{{_href}}" class="button pagefooter__link pagefooter__{{{_name}}}">
+    <span class="pagefooter__link-title">{{{title}}}</span>
+  </a>
+  {{/each}}
 </div>

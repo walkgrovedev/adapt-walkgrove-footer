@@ -4,8 +4,19 @@
         "_type": "component",
         "_component": "pageFooter",
         "_classes": "",
-        "_layout": "left",
-        "title": "",
+        "_layout": "full",
+        "_buttons": [
+            {
+                "_name": "previous",
+                "_href": "#/id/co-05",
+                "title": "Previous section"
+            },
+            {
+                "_name": "next",
+                "_href": "#/id/co-15",
+                "title": "Next section"
+            }
+        ],
         "_pageLevelProgress": {
             "_isEnabled": true
         }
