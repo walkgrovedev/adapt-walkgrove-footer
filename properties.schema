@@ -29,6 +29,47 @@
       "validators": [],
       "help": "This is the instruction text",
       "translatable": true
+    },
+    "_buttons": {
+      "type": "array",
+      "required": true,
+      "title": "Footer links",
+      "items": {
+        "type": "object",
+        "required": true,
+        "properties": {
+          "_name": {
+            "type": "string",
+            "required": true,
+            "default": "",
+            "title": "Link direction",
+            "inputType": "Text",
+            "validators": [],
+            "help": "",
+            "translatable": false
+          },
+          "_href": {
+            "type": "string",
+            "required": true,
+            "default": "",
+            "title": "Link URL",
+            "inputType": "Text",
+            "validators": [],
+            "help": "",
+            "translatable": false
+          },
+          "title": {
+            "type": "string",
+            "required": true,
+            "default": "",
+            "title": "Link display title",
+            "inputType": "Text",
+            "validators": [],
+            "help": "",
+            "translatable": true
+          }
+        } 
+      }
     }
   }
 }
