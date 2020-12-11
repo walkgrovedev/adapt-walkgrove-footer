@@ -2,7 +2,7 @@
   {{> component this}}
 
   {{#each _buttons}}
-  <a href="{{_href}}" class="button pagefooter__link pagefooter__{{{_name}}}">
+  <a href="{{_href}}" class="button pagefooter__link pagefooter__{{{_name}}}" aria-label="{{{title}}}" >
     <span class="pagefooter__link-title">{{{title}}}</span>
   </a>
   {{/each}}
